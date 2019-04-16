@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // this is a function-based 'dumb' component
 const Header = props => {
   // destructure (else enter: props.branding into <h3> )
-  const { branding } = props;
+  const { isAuthenticated, login, logout, branding } = props;
 
   return (
     <div>
@@ -27,6 +27,11 @@ const Header = props => {
                 <a href="/Profile" className="nav-link">
                   Profile
                 </a>
+              </li>
+              <li>
+                <button onClick={isAuthenticated() ? logout : login}>
+                  {isAuthenticated() ? 'Logout' : 'Login'}
+                </button>
               </li>
             </ul>
           </div>
