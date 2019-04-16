@@ -1,0 +1,97 @@
+/* layout page */
+
+body {
+    color: white;
+}
+
+.rxFooterLinks {
+    color: #00485E;
+    padding: 0px 20px 0px 20px;
+}
+
+#footerLinkRB {
+    border-right: 0.5px solid #00485E;
+}
+
+.rxFooterLinks:hover {
+    color: #00A88F;
+}
+
+#rxDisclaimer {
+    color: #00485E;
+}
+
+/* all pages except home */
+
+.returnHomeBtn {
+    background-color: #00485E;
+    color: white;
+}
+
+
+/* index page */
+
+#rxJumbo {
+    background-color: #00A88F;
+}
+
+#rxIcon {
+    max-height: 100px;
+}
+
+.userTypeBtn {
+    background-color: #FCBE05;
+}
+
+
+/* New User Page */
+
+#questIcon, .rxHelp {
+    font-size: 1.4rem;
+    margin: 0px 3px 0px 3px;
+    color: #00485E;
+}
+
+.form-row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#rxHR {
+    background-color: #FCBE05;
+    height: 1px;
+}
+
+.rxInputDD {
+    background-color: lightgray;
+}
+
+/* New Drug Page */
+
+#drug1, #drug2 {
+    width: 90%;
+}
+
+
+/* Results Page */
+
+.table {
+    color: white;
+}
+
+/* 404 Error page */
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+    color: black;
+}
+
+.error-actions {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.error-actions .btn {
+    margin-right:10px;
+}

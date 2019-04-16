@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS drugrx_db;
+CREATE DATABASE drugrx_db;
